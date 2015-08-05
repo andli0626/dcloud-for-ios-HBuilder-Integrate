@@ -1,0 +1,23 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+//www父文件名称
+
+//H54DB1D89 测试项目
+//H578D5E9B Html5+
+//H5677E47E mui
+#define APPID @"H5677E47E"
